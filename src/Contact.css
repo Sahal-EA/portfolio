@@ -1,0 +1,66 @@
+.contact{
+    background-color: black;
+}
+h1.contact__text{
+    font-size: 60px;
+    font-family:  Hobo Std;
+}
+p.contact__text{
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(29,29,36,75);
+    font-weight: 400;
+}
+input.contact{
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+    border-radius: 5px;
+    -webkit-transition : all .3s ease;
+    transition: all .3s ease;
+    height: 50px;
+    line-height: 46px;
+    margin:  20px 0px;
+    outline: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: .1px;
+    background: 2px solid hsla(0,0%,100%,.2);
+}
+textarea#message{
+    height: 120px;
+    background: none;
+    padding: 0 20px;
+    width: 100%;
+    line-height: 46px;
+    color :#fff;
+    font-size: 15px;
+    letter-spacing:  .1px;
+    border-radius: 2px solid hsla(0,0%,100%,.2);
+}
+button.btn1 {
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 1px solid #13b3cf;  
+    background-color: blue;
+    color: #fff!important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: .4s all ease;
+    height: 50px;
+    width: 150px;
+    margin: 20px 0px;
+  }
+  button.btn1:hover{
+    transform: translateY(5px);
+    background-image:linear-gradient(90deg,#3310f6,#0993ef);
+  }
+  .z__color{
+      color: black;
+  }
+  .icons{
+      display: flex;
+      margin: 50px;
+  }
+  

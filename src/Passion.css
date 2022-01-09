@@ -1,0 +1,47 @@
+h1.heading{
+    font-size: 60px;
+    text-align: center;
+    font-family: Hobo Std;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+p.heading.p__color{ 
+    margin-bottom: 0;
+    text-align: center;
+    line-height: 1.2;
+} 
+.passion__box{
+    border-radius: 10px;
+    width: 100%;
+    background-color: #191919;
+    padding: 55px;
+    transition:  .5s ease;
+}
+.passion__box:hover{
+    transform: translateY(5px);
+    background-image:linear-gradient(90deg,#3310f6,#0993ef);
+}
+.passion__box:hover p.passion__text.p__color{
+    color: #fff;
+}
+p.passion__text.p__color{
+    margin-bottom: 0;
+}
+h1.passion__text{
+    font-size: 19px;
+    font-family: Chiller;
+    padding: 10px 0px;
+}
+.containers{
+    width: 90%;
+    margin: 1px auto;
+  
+  }
+  .i__color {
+    color: #191919;
+    font-size: 18px;
+    line-height: 30px;
+    font-family:Century;
+    margin-bottom: 15px;
+  }
+  

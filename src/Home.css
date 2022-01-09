@@ -1,0 +1,80 @@
+.Home__bg{
+    background-image: url(C:/Users/User/protfoliyo/sample/src/img/ab.jpg) ;
+    background-color: #010101;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+ul.navbar{
+    font-family: Forte;
+    font-size: 23px;
+    margin-right: 30px;
+
+}
+li.nav__item{
+    font-size: 18px;
+    padding-bottom: 15pxs;
+    
+   
+}
+
+.home__content{
+    padding: 120px 00px;
+    display: flex;
+     
+}
+
+.home__meta{
+    margin-top: 120px;
+    margin-left: 400px;
+    margin-bottom: 300PX;
+   
+}
+
+h1.home__text{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: rgba(77, 159, 226, 0.705);
+    font-family:Forte;
+}
+h2.home__text{
+    font-size: 74px;
+    line-height: 54px;
+    font-weight: 800;
+    font-family: Chiller;
+    color: rgba(17, 18, 19, 0.705);
+    
+}
+h3.home__text{
+    font-size: 25px;
+    
+    font-weight: 800;
+   
+    font-family: Hobo Std;
+    color: rgb(8, 8, 8);
+}
+h4.home__text{
+    font-size: 35px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    color: rgb(248, 248, 248);
+    font-family: Snap ITC ;
+
+}
+.header{
+    transition: .4s all ease;
+    position: fixed; 
+    z-index: 1000;
+    width: 100%;
+    padding: 0px 30px ;
+    background-color: #191919;
+}
+.header.active{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    padding: 0px 30px ;
+    background-color: #191919;
+}
